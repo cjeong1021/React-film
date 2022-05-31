@@ -54,7 +54,7 @@ class App extends Component {
             onDetailClick={() => this.handleDetailsClick}
           />
 
-          <FilmDetails filmData={this.state.current} />
+          <FilmDetails film={this.state.current} />
         </div>
       </div>
     );
