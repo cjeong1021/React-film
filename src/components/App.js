@@ -40,6 +40,9 @@ class App extends Component {
       .then((data) => {
         console.log(data);
         this.setState({ current: data });
+      })
+      .catch(() => {
+        console.log('API key missing');
       });
   };
 
