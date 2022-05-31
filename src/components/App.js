@@ -42,7 +42,7 @@ class App extends Component {
         this.setState({ current: data });
       })
       .catch(() => {
-        console.log('API key missing');
+        console.log('API error');
       });
   };
 
